@@ -8,6 +8,13 @@ body {
   width: 100%;
   height: 100vh;
 }
+
+hr {
+  width: 80%;
+  height: 3px;
+  background-color: #3c3b3b;
+  margin: 30px auto;
+}
 .nav {
   background-color: blanchedalmond;
   display: flex;
@@ -110,7 +117,7 @@ body {
 
 .category {
   width: 100%;
-  min-height: 80vh;
+  min-height: 130vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,7 +137,7 @@ body {
 }
 .itemContainer {
   width: 100%;
-  height: 80vh;
+  height: 100%;
   /* border: 2px solid yellow; */
   display: flex;
   align-items: center;
@@ -170,4 +177,192 @@ body {
   /* border: 2px solid red; */
   font-size: 23px;
   font-weight: 500;
+}
+
+/*  owners sectin */
+
+.ownerSection {
+  width: 100%;
+  height: 230vh;
+  margin: 30px 0;
+  padding: 30px;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.ownerSection h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.owners {
+  width: 100%;
+  height: 100%;
+}
+.ownerContainer {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  margin: 50px 0;
+}
+.ownerImg {
+  width: 30%;
+  height: 60vh;
+  /* border: 2px solid green; */
+  border-radius: 30px;
+  overflow: hidden;
+
+  margin: 20px 50px 20px 110px;
+}
+.ownerImgOdd {
+  width: 30%;
+  height: 60vh;
+  /* border: 2px solid green; */
+  border-radius: 30px;
+  overflow: hidden;
+
+  margin: 20px 110px 20px 50px;
+}
+.ownerImg img {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  object-fit: cover;
+  object-position: top;
+}
+.ownerImgOdd img {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  object-fit: cover;
+  object-position: top;
+}
+.ownerName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: cetner;
+  width: 50%;
+  height: 50vh;
+  /* border: 2px solid rgb(0, 41, 128); */
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: azure;
+
+  margin-right: 80px;
+}
+.ownerNameOdd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: cetner;
+  width: 50%;
+  height: 50vh;
+  /* border: 2px solid rgb(0, 41, 128); */
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: azure;
+
+  margin-left: 80px;
+}
+.ownerName h2 {
+  font-size: 40px;
+  font-weight: 500px;
+  margin-bottom: 20px;
+}
+.ownerName p {
+  font-size: 20px;
+}
+.ownerNameOdd h2 {
+  font-size: 40px;
+  font-weight: 500px;
+  margin-bottom: 20px;
+}
+.ownerNameOdd p {
+  font-size: 20px;
+}
+
+.ownerName:hover {
+  box-shadow: rgba(127, 114, 240, 0.607) 0px 5px 15px;
+}
+.ownerNameOdd:hover {
+  box-shadow: rgba(127, 114, 240, 0.35) 0px 5px 15px;
+}
+.ownerImg:hover {
+  box-shadow: rgba(127, 114, 240, 0.35) 0px 5px 15px;
+}
+.ownerImgOdd:hover {
+  box-shadow: rgba(127, 114, 240, 0.35) 0px 5px 15px;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  height: 55vh;
+  background-color: rgba(255, 235, 205, 0.776);
+}
+
+.footer1 {
+  width: 100%;
+  height: 90%;
+  padding: 30px;
+  color: #464694;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  position: relative;
+}
+.info {
+  /* border: 2px solid red; */
+  margin-right: 50px;
+}
+.info h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 23px;
+}
+.info h2 span {
+  font-size: 20px;
+  font-weight: 400;
+}
+.info p {
+  font-size: 20px;
+}
+
+.followus {
+  /* border: 2px solid green; */
+  text-align: center;
+}
+.followus p {
+  font-size: 23px;
+  font-weight: 500;
+}
+.followus a {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 20px 5px;
+}
+.footer2 {
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 25px;
+  font-weight: 600;
+}
+.map {
+  position: absolute;
+  right: 20px;
+  top: 30px;
 }
