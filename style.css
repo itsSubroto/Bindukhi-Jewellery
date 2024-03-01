@@ -183,7 +183,7 @@ hr {
 
 .ownerSection {
   width: 100%;
-  height: 230vh;
+  height: 330vh;
   margin: 30px 0;
   padding: 30px;
   /* background-color: aquamarine; */
@@ -365,4 +365,102 @@ hr {
   position: absolute;
   right: 20px;
   top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    /* background-color: red; */
+  }
+  .navList li {
+    margin: 0 10px;
+  }
+  .sliderDots {
+    top: 450px;
+    left: 50%;
+  }
+
+  .category {
+    min-height: 1700px;
+  }
+
+  .item {
+    width: 37vw;
+    height: 58vh;
+  }
+  .item .categoryImg img {
+    width: 37vw;
+    height: 45vh;
+  }
+
+  .ownerSection {
+    width: 100%;
+    height: 4100px;
+  }
+
+  .ownerContainer {
+    width: 100%;
+    height: 900px;
+    flex-direction: column;
+  }
+
+  .ownerImg {
+    width: 470px;
+    height: 464px;
+  }
+  .ownerName {
+    width: 641px;
+    height: 352px;
+    margin: 0 0 0 40px;
+  }
+  .ownerImgOdd {
+    width: 470px;
+    height: 464px;
+    margin: 0 0 0 70px;
+  }
+  .ownerNameOdd {
+    width: 641px;
+    height: 352px;
+    margin: 0 0 0 40px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 900px;
+  }
+
+  .footer1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 95%;
+  }
+  .info {
+    margin: 10px auto;
+  }
+  .followus {
+    margin: 50px auto;
+  }
+
+  .map {
+    position: absolute;
+    top: 410px;
+    left: 30px;
+  }
+  .footer2 {
+    width: 100%;
+    height: 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    /* background-color: red; */
+  }
+
+  .nav {
+    padding: 0 10px;
+  }
+  .logo {
+    font-size: 18px;
+  }
 }
