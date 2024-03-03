@@ -399,6 +399,10 @@ hr {
   padding: 25px;
   font-weight: 600;
 }
+.footer2 p {
+  color: #fff;
+  margin: 0;
+}
 .map {
   position: absolute;
   right: 20px;
