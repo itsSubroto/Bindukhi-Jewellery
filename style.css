@@ -81,17 +81,32 @@ hr {
   display: flex;
 }
 .navList li {
-  text-decoration: none;
   list-style: none;
+}
+.navList a {
+  text-decoration: none;
   margin: 0 20px;
-  color: #464694;
+  color: #4d4d54;
   font-size: 20px;
   font-weight: 600;
+  transition: 0.2s ease;
+  position: relative;
 }
-.navList li:hover {
-  color: #6d6dc7;
-  font-weight: 700;
-  text-decoration: underline;
+.navList a:hover,
+.navList a.active {
+  color: #5454d3;
+  font-weight: 600;
+  /* text-decoration: underline; */
+}
+.navList a.active::after,
+.navList a:hover::after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  background-color: #5454d3;
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
 }
 
 /* banner section */
