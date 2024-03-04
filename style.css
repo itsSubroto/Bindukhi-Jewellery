@@ -404,6 +404,7 @@ hr {
   font-size: 40px;
   font-weight: 500;
   margin: 20px 5px;
+  text-decoration: none;
 }
 .footer2 {
   width: 100%;
@@ -510,7 +511,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 477px) {
   body {
     width: 100%;
     min-height: 100vh;
@@ -522,8 +523,11 @@ hr {
   .logo {
     font-size: 20px;
   }
-  .navList li {
-    margin: 0px 10px;
+  .navList {
+    margin-right: 0;
+  }
+  .navList a {
+    margin: 0;
     font-size: 14px;
     font-weight: 600;
   }
@@ -542,11 +546,11 @@ hr {
   }
   .ownerSection {
     width: 100%;
-    height: 4500px;
+    height: 4000px;
   }
   .ownerContainer {
     width: 100%;
-    height: 988px;
+    height: 900px;
   }
   .ownerName h2 {
     font-size: 24px;
@@ -576,12 +580,12 @@ hr {
   }
   .ownerName {
     width: 76vw;
-    height: 80vh;
+    height: 60vh;
     margin: 0 0 0 0px;
   }
   .ownerNameOdd {
     width: 76vw;
-    height: 80vh;
+    height: 60vh;
     margin: 0 0 0 0px;
   }
   .map iframe {
